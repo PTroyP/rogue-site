@@ -1,0 +1,192 @@
+/***** ROGUE PICKINGS PROJECT CSS *****/
+
+/***** BASE STYLES *****/
+
+@font-face {
+font-family: 'Wisdom Script Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Wisdom Script Regular'), url('Wisdom Script AJ.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../fonts/montserrat/montserrat-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../fonts/montserrat/montserrat-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('../fonts/montserrat/montserrat-light.otf') format('opentype');
+}
+body{
+font-family: 'Montserrat', sans-serif;
+color:#000000;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width:1200px;
+  margin:0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float:left;
+}
+
+.third-width {
+  width: 398px;
+  float:left;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+    header {
+      height: 0px;
+        }
+
+        header h1 {
+          font-size: 30px;
+          font-weight: bold;
+          color: #77a466;
+          padding: 0px;
+        }
+
+        header h1 span {
+          color: #000000;
+        }
+
+        /***** NAV *****/
+
+            nav {
+              float: right;
+              padding: 20px 0 20px 0;
+            }
+
+                nav ul li {
+                  display: inline-block;
+                }
+
+                nav ul li a {
+                  text-transform: uppercase;
+                  text-decoration: none;
+                  font-size: 14px;
+                  color: #77a466;
+                  padding-left: 20px;
+                }
+
+/***** ABOUT *****/
+
+#about img#about-img {
+  border: 2px solid #77a466;
+}
+
+#about h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color:#77a466;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 25px;
+}
+
+/***** INFO *****/
+menu reviews contact {
+  height: 600px;
+}
+
+#menu {
+  border-top: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  padding-bottom: 10px;
+}
+
+#menu h5 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#menu p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #77a466;
+  padding-bottom: 21px;
+}
+
+#reviews {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#reviews h5 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+#reviews p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#contact {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  border-left: 1px solid #dedbdc;
+  padding-bottom: 10px;
+}
+
+#contact h5{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+#contact p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+  padding-left: 10px;
+  padding-bottom: 21px;
+}
+
+#footer {
+  clear: both;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer span {
+  font-family: 'wisdom script regular';
+  text-transform: lowercase;
+  color: #77a466;
+}
